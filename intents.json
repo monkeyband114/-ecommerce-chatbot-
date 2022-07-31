@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {"tags": "greetings",
+    "patterns": ["hey", "hi", "hello", "good day", "good afternoon", "good evening", "good morning"],
+    "response": ["good day to you whats your name"]
+    },
+
+    {"tags": "nameAsk",
+    "patterns": ["im ", "i am ", "you can call me "],
+    "response": [" im travHAM19 okay what inquiries are you making today"]
+    },
+
+    {"tags": "name",
+    "patterns": ["whats your name ", "you are  ", "what would i call you  "],
+    "response": ["im travHAM19", "i am travham but you can call me harmony"]
+    },
+
+    {"tags": "Inquiry",
+    "patterns": ["im asking about", "i wanted to know about ", "making inquiry about", "how much is ", "what is the cost of", "i wish to know"],
+    "response": ["okay that will cost you 10$"]
+    },
+
+    {"tags": "inquiry2",
+    "patterns": ["the item on sale ", "the watch ", " the shoe", "how much is the sneakers ", "what is the cost of shoes"],
+    "response": ["nice that item is 50$"]
+    },
+     {"tags": "howOld",
+    "patterns": ["how old are you", "you are what age" ],
+    "response": ["nice of you to ask that im 3 days old today"]
+    },
+    {"tags": "whatYouDo",
+    "patterns": ["so what do you do", "what are you", "who are you"],
+    "response": ["Nice of you to ask that i am a chatbot designed for online price negotiations"]
+    },
+
+    {"tags": "Inquiry",
+    "patterns": ["im asking about", "i wanted to know about ", "making inquiry about", "how much is ", "what is the cost of", " i wish to know ", "what is the cost", "how much item "],
+    "response": ["okay that will cost you 10$"]
+    },
+    {"tags": "negotiator1",
+    "patterns": ["the price is high", "thats really expensive",  "its really expensive", "are there any discounts", "okay i cant pay that much", "thats quite expensive", "that still too expensive"],
+    "response": ["okay for this item we offer a discount", "i can issue you a coupon", "Okay since its a discount week  we can give you an extra 15% OFF, Hows that", "we have a secondary gift pack which will be just nice"]
+    },
+    {"tags": "negotiator2ai",
+    "patterns": ["that is also well over my budget", "i still cannot afford that"],
+    "response": ["Well thats the best we can do your just broke Boss/madam"]
+    },
+
+    {"tags": "negotiator2aii",
+    "patterns": [ "are you insulting me", " what did you just call me  ", "what is the meaning of this"],
+    "response": ["yes na you broke broke gang", "if i broke na my business gang", "shhhhhsss oga of  any money way i get na enjoyment"]
+    },
+
+    {"tags": "negotiator2av",
+    "patterns": ["na wa oh", "i cant understand this", " i dont get", "why are you saying all this "],
+    "response": ["Abeg getat"]
+    },
+    {"tags": "negotiator1b",
+    "patterns": ["what coupon", " a coupon of how much", " what is the coupon ", "how much is the coupon  ", "okay a coupon"],
+    "response": ["A discount coupon of 3$ for this item, Hows that"]
+    },
+    {"tags": "pay",
+    "patterns": ["how can i pay", "how do i make payment", "okay can i pay now ", "where do i pay", " thanks were can i pay"],
+    "response": ["you can pay using the paypal button at the end of the page", "you can pay using paypal"]
+    }
+  ]
+}
+
